@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import Divider from "@/components/ui/Divider";
 import  Github  from "../icons/github.svg";
+import Title from "@/components/ui/Title";
 
 export default function Login() {
   return (
@@ -32,6 +33,7 @@ export default function Login() {
       </div>
       <Divider className="my-10"/>
       <p className="text-center font-mono text-sm my-10">© 2026 OpenSource Compass. All rights reserved.</p>
+      <Title title="OpenSource Compass"/>
     </div>
   )
 }
